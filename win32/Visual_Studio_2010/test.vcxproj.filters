@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{440e075a-9708-4e92-859b-5565759867df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\uriparser">
+      <UniqueIdentifier>{19a825d5-bcb9-4941-96dd-139053cc4a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{74f43a92-1354-4de6-add2-694fecd12616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\CppTest">
+      <UniqueIdentifier>{18eba7ad-f810-46ef-b938-99deff2ce306}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\uriparser\Uri.h">
+      <Filter>include\uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uriparser\UriBase.h">
+      <Filter>include\uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uriparser\UriDefsAnsi.h">
+      <Filter>include\uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uriparser\UriDefsConfig.h">
+      <Filter>include\uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uriparser\UriDefsUnicode.h">
+      <Filter>include\uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uriparser\UriIp4.h">
+      <Filter>include\uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\FourSuite.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\config.h">
+      <Filter>test\CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-assert.h">
+      <Filter>test\CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-collectoroutput.h">
+      <Filter>test\CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-compileroutput.h">
+      <Filter>test\CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-htmloutput.h">
+      <Filter>test\CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-output.h">
+      <Filter>test\CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-source.h">
+      <Filter>test\CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-suite.h">
+      <Filter>test\CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-textoutput.h">
+      <Filter>test\CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest-time.h">
+      <Filter>test\CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\cpptest.h">
+      <Filter>test\CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\missing.h">
+      <Filter>test\CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\utils.h">
+      <Filter>test\CppTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppTest\winconfig.h">
+      <Filter>test\CppTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\test\FourSuite.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\collectoroutput.cpp">
+      <Filter>test\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\compileroutput.cpp">
+      <Filter>test\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\htmloutput.cpp">
+      <Filter>test\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\missing.cpp">
+      <Filter>test\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\source.cpp">
+      <Filter>test\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\suite.cpp">
+      <Filter>test\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\textoutput.cpp">
+      <Filter>test\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\time.cpp">
+      <Filter>test\CppTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CppTest\utils.cpp">
+      <Filter>test\CppTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
